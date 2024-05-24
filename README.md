@@ -16,13 +16,15 @@ Read the csv file.
 Read the csv file.
 
 ### Step4
-Create the linear regression model and fit
+Create the linear regression model and fit.
 
 ### Step5
 Predict the CO2 emission of a car where the weight is 2300kg, and the volume is 1300cm cube.
 
 ## Program:
 ```
+Register Number:2305002025
+Developed By:U.subha shree.U
 import pandas as pd
 from sklearn import linear_model
 df=pd.read_csv("car.csv")
@@ -41,7 +43,6 @@ print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
 
 ```
 ## Output:
-![image](https://github.com/subha2406/Multivariate-Linear-Regression/assets/155226504/623f9400-1540-4c2a-ac95-1c50cc1d64a3)
 ![image](https://github.com/subha2406/Multivariate-Linear-Regression/assets/155226504/623f9400-1540-4c2a-ac95-1c50cc1d64a3)
 
 
